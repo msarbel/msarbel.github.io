@@ -330,6 +330,9 @@ body {
       grid-column: 1 / -1;
       padding: 6rem; } }
 
+.about__heading-1 {
+  color: #101d2c; }
+
 .about__img--1 {
   width: 110%;
   grid-row: 1 / 4;

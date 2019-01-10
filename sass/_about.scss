@@ -21,6 +21,10 @@
         }
     }
 
+    &__heading-1 {
+        color: $color-secondary;
+    }
+
     &__img--1 {
         width: 110%;
         grid-row: 1 / 4;
