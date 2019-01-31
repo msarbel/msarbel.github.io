@@ -20,6 +20,14 @@ $bp-large: 62.5em; //1000px
 $bp-medium: 50em;  //800px
 $bp-small: 37.5em;  //600px
 
+// Variables
+$regal-blue: #1E1B2D;
+$san-juan: #828092;
+$white: #fff;
+$black: #000;
+$open-sans: 'Open Sans',
+sans-serif;
+
 *,
 *::before,
 *::after {
@@ -27,6 +35,18 @@ $bp-small: 37.5em;  //600px
     padding: 0;
     box-sizing: inherit;
 }
+
+// clear-fix mixin
+@mixin cf {
+        &::before,
+        &::after {
+        content: '';
+        display: table;
+        }
+        &::after {
+        clear: both;
+        }
+    }
 
 html {
     box-sizing: border-box;
